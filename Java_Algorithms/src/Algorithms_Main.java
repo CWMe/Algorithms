@@ -3,7 +3,7 @@ public class Algorithms_Main {
     public static void main(String[] args) {
         // Big O notation - Gives us a way of comparing the time complexity (number of steps taken to complete the algorithm)
         // of different algorithms independent of hardware.
-        // Order of increasing Time Complexity (Top to Bottom).
+        // Order of increasing Time Complexity (Top to Bottom) (We take the worst case scenario for Time Complexity.
 
         // O(1) Constant Time Complexity.
         O_of_1();
@@ -48,12 +48,13 @@ public class Algorithms_Main {
 
         int[] matrix1 = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
         int[] matrix2 = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
-        // each array contains 10 elements find the sum of each multiple for each element in both of the arrays.
+        // Each array contains 10 elements find the sum of each multiple for each element in both of the arrays.
+        // Our Time Complexity increases by n^2 as our arrays increase in size.
 
         int total = 0;
         for (int x : matrix1) {
             for (int y: matrix2) {
-                total += x*y;
+                total += x * y;
                 // System.out.println("Total in this iteration is: " + total);
             }
             // System.out.println("X is now: " + x);
