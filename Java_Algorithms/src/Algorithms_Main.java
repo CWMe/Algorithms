@@ -3,6 +3,7 @@ public class Algorithms_Main {
     public static void main(String[] args) {
         // Big O notation - Gives us a way of comparing the time complexity (number of steps taken to complete the algorithm)
         // of different algorithms independent of hardware.
+        // Order of increasing Time Complexity (Top to Bottom).
 
         // O(1) Constant Time Complexity.
         O_of_1();
