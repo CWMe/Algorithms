@@ -15,7 +15,7 @@ This repository contains three different implementations of a **Movie Recommenda
 - Uses a **different similarity calculation method**, possibly incorporating frequency-based weighting.  
 - Optimized for performance and scalability in browser-based or Node.js environments.  
 
-### 3. **LLAMA-Assisted Code**  
+### 3. **LLAMA-Assisted Code (by Andrew)**  
 - Generated with assistance from a **large language model (LLM)**.  
 - May explore **alternative algorithms**, such as Cosine Similarity or Pearson Correlation.  
 - Useful for benchmarking AI-generated code against human-designed solutions.  
