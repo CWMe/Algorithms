@@ -4,6 +4,9 @@ from scipy.spatial.distance import cosine
 from collections import defaultdict
 import math
 
+# Ignore errors if the data doesn't properly line up (i.e. divide by zero)
+np.seterr(divide='ignore', invalid='ignore')
+
 def common_movies_vector(m1, m2):
     result = []
     for i in range(len(m1)):
