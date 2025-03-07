@@ -4,18 +4,18 @@ This repository contains three different implementations of a **Movie Recommenda
 
 ## Solutions Overview  
 
-### 1. **Python Implementation (by Shijit)**  
+### 1. **Python Implementation (by Shijit) CWM_Recommendation **  
 - Uses **set operations** to calculate similarity between users.  
 - Employs a **Jaccard-like approach** but focuses on ensuring meaningful recommendations.  
 - Designed for readability and ease of debugging.  
 - Best suited for small to medium-sized datasets.  
 
-### 2. **JavaScript Implementation (by Jason)**  
+### 2. **JavaScript Implementation (by Jason) CWM_JS **  
 - Implements a recommendation system in **JavaScript**, making it more adaptable for web-based applications.  
 - Uses a **different similarity calculation method**, possibly incorporating frequency-based weighting.  
 - Optimized for performance and scalability in browser-based or Node.js environments.  
 
-### 3. **LLAMA-Assisted Code (by Andrew)**  
+### 3. **LLAMA-Assisted Code (by Andrew) CWM_Dijkstras **  
 - Generated with assistance from a **large language model (LLM)**.  
 - May explore **alternative algorithms**, such as Cosine Similarity or Pearson Correlation.  
 - Useful for benchmarking AI-generated code against human-designed solutions.  
