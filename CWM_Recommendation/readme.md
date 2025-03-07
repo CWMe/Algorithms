@@ -44,11 +44,38 @@ Run this following command
 The output looks like this:
 ```
 
-Recommendation for John: Most similar to Alice with score 0.67.
-Recommended Movies: Movie4
+Recommendation for Internet Bot: Most similar to Paulo with score 0.44.
+Recommended Movies: The Lord of the Rings: The Return of the King, Avatar
 
-Recommendation for Alice: Most similar to John with score 0.67.
-Recommended Movies: Movie4
+Recommendation for Milu: Most similar to Shijit Dasgupta with score 0.43.
+Recommended Movies: The 40 Year Old Virgin, Superbad
+
+Recommendation for John: Most similar to Alex with score 0.50.
+Recommended Movies: Avatar, Inception
+
+Recommendation for Alex: Most similar to John with score 0.50.
+Recommended Movies: Matrix Reloaded
+
+Recommendation for Paulo: Most similar to A H with score 0.54.
+Recommended Movies: The 40 Year Old Virgin, The Room
+
+Recommendation for A H: Most similar to Paulo with score 0.54.
+Recommended Movies: Avatar
+
+Recommendation for Jason: Most similar to Alex with score 0.29.
+Recommended Movies: Avatar, Mean Girls
+
+Recommendation for Vale: Most similar to Alex with score 0.44.
+Recommended Movies: Mean Girls, Inception
+
+Recommendation for Fabio: Most similar to Pavel with score 0.60.
+Recommended Movies: The 40 Year Old Virgin, The Dark Knight
+
+Recommendation for Shijit Dasgupta: Most similar to Milu with score 0.43.
+Recommended Movies: Avatar
+
+Recommendation for Calvin: Most similar to Nick with score 0.40.
+Recommended Movies: Matrix Reloaded, Avatar
 
 Recommendation for Bob: Most similar to John with score 0.50.
 Recommended Movies: Movie5
