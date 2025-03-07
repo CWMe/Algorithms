@@ -1,4 +1,4 @@
-# Code With Me Meetups on Algorithms content
+# Code With Me: Meetups on Algorithms Content
 
 ## 2025: Grokking Algorithms Series:
 ### Night 3: Dijkstra Algorithm and Greedy Algorithm [(Feb 26, 2025)](https://www.meetup.com/code-with-me/events/305959938/)
