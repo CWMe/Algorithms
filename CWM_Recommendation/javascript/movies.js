@@ -1,3 +1,11 @@
+/*
+ Author: Jason Mitchell
+ File: recommendationEngine.js
+ Description: A recommendation engine demonstration for the CodeWithMe meetup.
+              This code was written as part of our Grokking Algorithms series,
+              focusing on K-Nearest Neighbors.
+*/
+
 const K = 3;
 
 module.exports.listSimilarity=listSimilarity;
