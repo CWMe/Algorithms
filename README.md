@@ -16,10 +16,9 @@ This repository contains three different implementations of a **Movie Recommenda
 - Optimized for performance and scalability in browser-based or Node.js environments.  
 
 ### 3. **LLAMA-Assisted Python Code (by Andrew) CWM_Cosine_KNN **  
-- Uses **K-Nearest Neighbors (KNN)** and **Cosine Similarity** to determine similar users.  
-- One-hot encodes movie preferences and compares user vectors.  
-- Uses `pandas` and `scipy` for efficient matrix operations.  
-- Requires a **requirements.txt** file for setup.  
+- Uses **K-Nearest Neighbors (KNN)** and **Cosine Similarity** to group users with similar movie interests.  
+- One-hot encodes movies seen and compares those vectors for similiarity between users.  
+- Requires a **requirements.txt** file for setup.
 
 ## Installation & Usage  
 
