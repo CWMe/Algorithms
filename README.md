@@ -1,35 +1,13 @@
-# Code With Me Movie Recommendation System  
+# Code With Me Meetups on Algorithms content
 
-This repository contains three different implementations of a **Movie Recommendation System**, each using a different approach and technology stack. The goal is to recommend movies to users based on their similarity to others, ensuring that each user gets suggestions for movies they haven’t watched yet.  
+## 2025: Grokking Algorithms Series:
+### Night 3: [Dijkstra Algorithm and Greedy Algorithm](https://www.meetup.com/code-with-me/events/305959938/) (Feb 26, 2025)
+Contains the content covered for Greedy Algorithms and code to implement and visualize Dijkstra's Algorithm on a grid.
 
-## Solutions Overview  
+### Night 4: [K-nearest Neighbor](https://www.meetup.com/code-with-me/events/305959953/) (Mar  5, 2025)
+Contains the conent covered for K-Nearest Neighbor (KNN) as well as code examples for the movie recommendation example.
 
-### 1. **Python Implementation (by Shijit) CWM_Recommendation **  
-- Uses **set operations** to calculate similarity between users.  
-- Employs a **Jaccard-like approach** but focuses on ensuring meaningful recommendations.  
-- Designed for readability and ease of debugging.  
-- Best suited for small to medium-sized datasets.  
+## Archive
+### 2018
+The archive folder contains some content in Java from 2018
 
-### 2. **JavaScript Implementation (by Jason) CWM_JS **  
-- Implements a recommendation system in **JavaScript**, making it more adaptable for web-based applications.  
-- Uses a **different similarity calculation method**, possibly incorporating frequency-based weighting.  
-- Optimized for performance and scalability in browser-based or Node.js environments.  
-
-### 3. **LLAMA-Assisted Python Code (by Andrew) CWM_Cosine_KNN **  
-- Uses **K-Nearest Neighbors (KNN)** and **Cosine Similarity** to group users with similar movie interests.  
-- One-hot encodes movies seen and compares those vectors for similiarity between users.  
-- Requires a **requirements.txt** file for setup.
-
-## Installation & Usage  
-
-Each solution is contained in its own directory. To run a specific solution:  
-
-1. Navigate to the respective folder.  
-2. Follow the usage instructions inside each folder’s **README.md**.  
-3. Run the script with a CSV file containing user preferences.  
-
-### Running the Python Solution  
-
-```bash
-cd python_solution
-python3 Recommendation.py your_file.csv
