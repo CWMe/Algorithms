@@ -15,10 +15,11 @@ This repository contains three different implementations of a **Movie Recommenda
 - Uses a **different similarity calculation method**, possibly incorporating frequency-based weighting.  
 - Optimized for performance and scalability in browser-based or Node.js environments.  
 
-### 3. **LLAMA-Assisted Code (by Andrew) CWM_Cosine_KNN **  
-- Generated with assistance from a **large language model (LLM)**.  
-- May explore **alternative algorithms**, such as Cosine Similarity or Pearson Correlation.  
-- Useful for benchmarking AI-generated code against human-designed solutions.  
+### 3. **LLAMA-Assisted Python Code (by Andrew) CWM_Cosine_KNN **  
+- Uses **K-Nearest Neighbors (KNN)** and **Cosine Similarity** to determine similar users.  
+- One-hot encodes movie preferences and compares user vectors.  
+- Uses `pandas` and `scipy` for efficient matrix operations.  
+- Requires a **requirements.txt** file for setup.  
 
 ## Installation & Usage  
 
