@@ -1,4 +1,4 @@
-# Movie Recommendation System  
+# Code With Me Movie Recommendation System  
 
 This repository contains three different implementations of a **Movie Recommendation System**, each using a different approach and technology stack. The goal is to recommend movies to users based on their similarity to others, ensuring that each user gets suggestions for movies they haven’t watched yet.  
 
