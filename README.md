@@ -25,7 +25,7 @@ This repository contains three different implementations of a **Movie Recommenda
 
 Each solution is contained in its own directory. To run a specific solution:  
 
-1. Navigate to the respective folder (`python_solution/`, `javascript_solution/`, `llama_solution/`).  
+1. Navigate to the respective folder.  
 2. Follow the usage instructions inside each folder’s **README.md**.  
 3. Run the script with a CSV file containing user preferences.  
 
